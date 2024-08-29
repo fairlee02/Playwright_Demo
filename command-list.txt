@@ -1,0 +1,18 @@
+///These are the list of commands that can be used in playwright/////
+
+npx playwright test --worker > ------------- run 3 workers in parallel
+
+npx playwright test [filename] ------------- run a specific file under test folder
+
+npx playwright test -g "title" ------------- run the test with the title
+
+npx playwright test --project=chromium ----- run the test on a specific browser
+
+npx playwright test --headed --------------- run the test in headed mode (GUI)
+
+npx playwright test --debug ---------------- run the test on debug mode
+
+npx playwright test example.spec.js --debug -------- debug on a specific file  [Optional adding a line of the code :23]
+
+npx playwright codegen ----------------------------- run the recording feature of playwright - optional add the url at the end to open the browser with the url automatically.
+
